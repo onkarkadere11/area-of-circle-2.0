@@ -13,7 +13,7 @@ public class circlearea {
 	}
 	@RequestMapping("/area")
 	public String area(@RequestParam float r) {
-		return "area of circle having radius" + r + "is "+ " "+(3.14*r*r);
+		return "area of circle having radius" + r + "is equals to"+ " "+(3.14*r*r);
 	}
 
 }
